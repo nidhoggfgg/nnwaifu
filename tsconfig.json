@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "outDir": "./dist",
+    "declarationDir": "dist/dts",
   },
   "include": [
     "src/**/*"
